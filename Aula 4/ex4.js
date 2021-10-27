@@ -4,5 +4,13 @@ let idade = 27;
 let peso = 83.5;
 let altura = 1.70;
 let planoAtivo = true;
-let imc = (altura*altura)/peso;
-console.log(imc)
+
+function calcularImc(peso, altura) {
+let imc = peso/(altura*altura)
+
+console.log(imc);
+return imc;
+}
+
+
+calcularImc(peso, altura);
