@@ -1,19 +1,14 @@
-let nome = "Danilo";
-let idade = 25;
+let nome = "Marcelo";
+let idade = 34;
 let usuarioAtivo = true;
  
+console.log("Nome: ");
 console.log(nome);
+console.log("Idade: ");
 console.log(idade);
+console.log("Usuário está ativo no sistema?");
 console.log(usuarioAtivo);
 
-
- 
-console.log("Marcelo");
-console.log(nome);
-console.log(34);
-console.log(idade);
-console.log(true);
-console.log(usuarioAtivo);
 
 
 

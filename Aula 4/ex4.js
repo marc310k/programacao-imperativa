@@ -1,16 +1,15 @@
-let nome = "José";
-let sobrenome = "da Silva";
-let idade = 27;
-let peso = 83.5;
-let altura = 1.70;
-let planoAtivo = true;
+var nome = "José";
+var sobrenome = "da Silva";
+var idade = 27;
+var peso = 83.5;
+var altura = 1.70;
+var planoAtivo = true;
 
 function calcularImc(peso, altura) {
-let imc = peso/(altura*altura)
-
-console.log(imc);
+var imc = peso/(altura*altura)
 return imc;
 }
 
 
-calcularImc(peso, altura);
+
+console.log(nome + " " + sobrenome + " seu IMC é: " + calcularImc(peso, altura).toFixed(2));
