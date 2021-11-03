@@ -81,4 +81,36 @@ console.log(typeof Math.sin);
 
 console.log( Math.random() );
 
-    
+//
+
+function cumprimentar() {
+    console.log("Olá, seja bem vindo!");
+   }
+   
+   cumprimentar()
+
+//
+
+function cumprimentarA(nome) {
+    const mensagem = "Olá, seja bem vindo! "
+    console.log(mensagem + nome);
+   }
+   
+   cumprimentarA("William")
+   cumprimentarA("Danilo")
+
+   //
+
+   function multiplicarPorDoisESomarCinco(x) {
+    return 2 * x + 5
+   }
+   multiplicarPorDoisESomarCinco(1)
+   multiplicarPorDoisESomarCinco(5)
+   //multiplicarPorDoisESomarCinco(Erick) // Erick não é um número
+  // const Erick= 5
+   //multiplicarPorDoisESomarCinco(Erick) //agora sim
+
+   console.log(multiplicarPorDoisESomarCinco(5));
+
+   const valor = multiplicarPorDoisESomarCinco(Erick)
+console.log(valor);
