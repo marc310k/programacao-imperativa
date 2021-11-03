@@ -1,32 +1,29 @@
-//function adicionar(a, b) {
-//let soma = a + b;  
-//console.log("funcao adicionar : ", soma);  
-//return a + b;
-//}
+function adicionar(a, b) {
+let soma = a + b;  
+console.log("funcao adicionar : ", soma);  
+return a + b;
+}
 
-//adicionar(1,1);
-//console.log(adicionar(10,1));
+adicionar(1,1);
+console.log(adicionar(10,1));
 
 
-//somar = adicionar(1,1);
-//console.log(adicionar(1,1));
+somar = adicionar(1,1);
+console.log(adicionar(1,1));
 
-//somar = adicionar(5,5);
-//console.log(somar);
+somar = adicionar(5,5);
+console.log(somar);
 
-//function subtrair(a, b) {
-  //  return a - b;
-//}
-//
-//console.log(subtrair(30,40));
+function subtrair(a, b) {
+    return a - b;
+}
 
-//function testar() {
-//let nome = "Marcelo";
-//let idade = 34;
-//}
+console.log(subtrair(30,40));
 
-//console.log(nome)
-//testar()
+function testar() {
+let nome = "Marcelo";
+let idade = 34;
+}
 
 
 function multiplicar(a, b) {
@@ -47,3 +44,7 @@ function quadrado(a) {
 }
 
 console.log(quadrado(5));
+
+console.log ("-------------- Teste de Operações / Calculadora --------------")
+console.log(adicionar(3,2));
+cosole.log(subtrair(5,4));
