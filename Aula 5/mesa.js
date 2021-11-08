@@ -53,15 +53,64 @@ horaTrabalho(3000)
 
 // EX6
 
+function imc(alturacm, pesokg){
+    return console.log(pesokg / (alturacm / 100 * alturacm / 100));
+}
 
+imc(173, 90);
 
+// EX 7
 
+console.log('alfabeto'.toUpperCase())
+
+// EX 8
+
+console.log(typeof 37);
+console.log(typeof "etc");
+console.log(typeof true);
+console.log(typeof Math.sin);
 
 // EX 9
     function calcularCicunferencia(raio){
-        return 2 * Math.PI * raio;
-    }
-        console.log(calcularCicunferencia(25))
+      return 2 * Math.PI * raio;
+  }
+       console.log(calcularCicunferencia(25))
 
 
-    
+// EXTRAS
+
+console.log( Math.random() );
+
+//
+
+function cumprimentar() {
+    console.log("Olá, seja bem vindo!");
+   }
+   
+   cumprimentar()
+
+//
+
+function cumprimentarA(nome) {
+    const mensagem = "Olá, seja bem vindo! "
+    console.log(mensagem + nome);
+   }
+   
+   cumprimentarA("William")
+   cumprimentarA("Danilo")
+
+   //
+
+   function multiplicarPorDoisESomarCinco(x) {
+    return 2 * x + 5
+   }
+   multiplicarPorDoisESomarCinco(1)
+   multiplicarPorDoisESomarCinco(5)
+   //multiplicarPorDoisESomarCinco(Erick) // Erick não é um número
+  // const Erick= 5
+   //multiplicarPorDoisESomarCinco(Erick) //agora sim
+
+   console.log(multiplicarPorDoisESomarCinco(5));
+
+   const valor = multiplicarPorDoisESomarCinco(Erick)
+console.log(valor);
