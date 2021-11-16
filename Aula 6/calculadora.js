@@ -1,11 +1,21 @@
 function adicionar(a, b) {
 let soma = a + b;  
-console.log("funcao adicionar : ", soma);  
+console.log("o resultado da soma é : ", soma);  
 return a + b;
 }
 
-adicionar(1,1);
-console.log(adicionar(10,1));
+adicionar(50,55);
+//console.log(adicionar(10,1));
+
+ function condicoes(a, b) {
+let result = a*b*a;
+if a > b 
+ }
+
+
+
+
+
 
 
 somar = adicionar(1,1);
